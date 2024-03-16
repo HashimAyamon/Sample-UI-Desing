@@ -1,0 +1,497 @@
+* {
+    list-style: none;
+}
+#header {
+
+
+}
+#header div.Items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+#header div.Items div.left {
+
+}
+#header div.Items div.left div.image {
+    width: 39%;
+}
+#header div.Items div.left div.image img {
+    display: flex;
+    width: 100%;
+    border-radius: 30px;
+  
+    
+    
+}
+#header div.Items div.right{
+    
+}
+#header div.Items div.right ul{
+    display: flex;
+    align-items: center;
+}
+#header div.Items div.right ul li{
+    margin-right: 30px;
+    color: rgba(39, 47, 48, 0.704);
+    text-shadow: 0 0 7px rgb(57, 188, 188);
+    font-size: 20px;
+  
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+#header div.Items div.right ul button{
+    margin-right: 30px;
+     border-radius: 40px;
+    font-weight: bold;
+    background-color: rgb(4, 90, 144);
+    color: rgb(255, 255, 255);
+     font-family:'Times New Roman', Times, serif;
+   font-size: 20px;
+   
+}
+#spotlight{
+    background: url(images/sportlight1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    padding: 30px;
+    margin-bottom: 10px;
+
+    
+}
+
+#spotlight h1 {
+    text-align:right;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(39, 47, 48, 0.704);
+    margin-bottom: 40px;
+    margin-left: 16%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 7px rgb(57, 188, 188);
+  
+}
+#spotlight p{
+    text-align: right;
+    padding-left: 40px;
+    margin-right: 15px;
+        font-size: 20px;
+        color: rgb();
+        text-shadow: 0 0 3px skyblue;
+        font-style: bold;
+        font-family:fantasy;
+        height: 5px;
+}
+#highlight {
+    position: relative;
+    display: flex;
+    
+  }
+  
+  #highlight div.one{
+    background-size: cover;
+    position: absolute;
+    height:65vh;
+    width: 40vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/actor.jpeg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  
+  #highlight div.one h1{
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(228, 228, 228);
+    height: 5px;
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+  }
+  
+  #highlight div.one p {
+    text-align: left; 
+    font-size: 15px;
+    color: rgb(234, 234, 234);
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+      
+
+  }
+  
+  #highlight div.one button { 
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+   
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 40px;
+    position: absolute;
+  } 
+
+  #highlight div.two {
+    background-size: cover;
+    position: absolute;
+    height:65vh;
+    width: 40vh;
+ 
+    margin-left:20%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/emmaawa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  
+  #highlight div.two h1 {
+    color: rgb(15, 10, 10);
+    text-align: left;
+    height: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    left: 50%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+  }
+  
+  #highlight div.two p {
+    text-align: left;
+    margin-right: 15px;
+    font-size: 15px;
+    color: rgb(14, 10, 10);
+    font-style: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+        
+
+  }
+  
+  #highlight div.two button {
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 40px;
+    position: absolute;
+  } 
+
+  #highlight div.three { 
+    background-image: url(images/oscars.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height:65vh;
+    width: 40vh;
+    margin-left:40%;
+    justify-content: center;
+    align-items: center;
+   
+    background-size: cover;
+  }
+  
+
+  
+  #highlight div.three h1 {
+    height: 5px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    left: 50%;
+     
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+
+  }
+  
+  #highlight div.three p { 
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-right: 15px;
+    font-size: 15px;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     
+
+  }
+  
+  #highlight div.three button {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 40px;
+    position: absolute;
+  } 
+
+  #highlight div.four {
+    height:65vh;
+    width: 40vh;
+    margin-left:60%;
+    background-size: cover;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/dirrecttttorr.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  
+  #highlight div.four h1 {
+    left: 50%;
+    height: 5px; 
+    text-align:left;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+  }
+  
+  #highlight div.four p {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-right: 15px;
+    font-size: 13px;
+    
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        
+
+  }
+  
+  #highlight div.four button {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+   
+    
+  } 
+
+  #highlight div.five {
+    background-size: cover;
+    position: absolute;
+    height:65vh;
+    width: 40vh; 
+    margin-left:80%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/panda22.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  
+  #highlight div.five h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    left: 50%;
+    height: 5px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+
+  }
+  
+  #highlight div.five p {
+    text-align: center;
+    margin-right: 15px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        
+
+  }
+  
+  #highlight div.five button {
+    bottom: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+   background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 500px;
+    font-family:monospace;
+    border-radius: 40px;
+    position: absolute;
+  } 
+
+
+  #content{
+      margin-top: 45%;
+
+      
+  }
+  #content div.items{
+      
+      display: flex;
+      width: 65%;
+      margin: 0rem auto 0 auto;
+  }
+  #content div.items div.left{
+  
+  }
+  #content div.items div.left div.image{
+    
+  }
+
+  #content div.items div.right h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 7px rgb(57, 38, 38);
+    font-family:Georgia, 'Times New Roman', Times, serif
+   
+  }
+
+  #content div.items div.right li{
+   list-style:square;
+    font-size: 15px;
+    color: rgb(19, 28, 31);
+    font-style: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     padding-bottom: 11px;
+    margin-right: 15px;
+   
+  }
+  #content div.items div.left div.image img{
+      height: 250px;
+     width: 90vh;
+    
+    
+  }
+
+
+  #geners {
+    margin-top: 17%;
+   background-color: rgb(223, 189, 189);
+  }
+  #geners div.next_items{
+      
+    display: flex;
+    margin: 0rem auto 0 auto;
+    margin-left: 15%;
+    
+}
+#geners div.next_items div.left{
+
+}
+#geners div.next_items div.left div.image{
+    
+}
+
+#geners div.next_items div.right h1{
+  text-align: left;
+  padding-left: 160px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+#geners div.next_items div.right p{
+  padding-bottom: 11px;
+  margin-left: 35px;
+  font-size: 25px;
+  color: rgb(247, 247, 247);
+  font-style: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#geners div.next_items div.left div.image img{
+  height: 400px;
+  width: 400px;
+   
+}
+
+#geners div.next_items div.right button{
+  transform: translateX(-50%);
+  font-size: 20px;
+  background-color: rgb(1, 6, 0);
+  color: rgb(246, 245, 245);
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 40px;
+  position: absolute;
+  margin-left: 20%;
+}
+
+#footer{
+  margin-top: 15%;
+  padding-bottom: 5%;
+  padding-top: 5% ;
+  background-color: rgb(32, 32, 32);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+#footer div.center{
+  color: rgb(251, 251, 251);
+
+}
+#footer div.center h1{
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#footer div.center p{
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+
+
+}
+#footer div.image{
+  display: flex;
+  justify-content: space-between;
+
+  overflow:hidden;
+  padding-right: 40%;
+  padding-left: 30% ;
+  
+
+}
+#footer div.image img{
+height: 100px;
+width: 100px;
+border-radius: 100%;
+padding-right: 5px;
+
+}
